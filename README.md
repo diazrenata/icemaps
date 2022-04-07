@@ -26,7 +26,7 @@ Working from subsets of the tutorial at https://github.com/eleanorlutz/earth_atl
     - `1_earth.png`, etc: Large side view. The numbers correspond to calendar months.
     - `N_1_earth.png`, `S_1_earth.png`, etc: Small views looking down on the north or south poles. Numbers correspond to calendar months.
 - `processed_maps/sea_ice` contains processed .pngs from the Sea Ice dataset, named according to the same conventions as the Blue Marble data. 
-- `process_maps.ipynb` contains code to produce the files in `processed_maps` from the raw files in `csv_maps` and `jpg_maps`. Requires the `cartopy` Python package.
+- `process_maps.ipynb` contains code to produce the files in `processed_maps` from the raw files in `csv_maps` and `jpg_maps`. Requires the `cartopy` Python package. Modified from [Eleanor's code](https://github.com/eleanorlutz/earth_atlas_of_space/blob/main/raster_data.ipynb).
 
 ## Credits
 
