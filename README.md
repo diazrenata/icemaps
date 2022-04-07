@@ -1,6 +1,6 @@
 # icemaps
 
-Working from subsets of the tutorial at https://github.com/eleanorlutz/earth_atlas_of_space/ (by Eleanor Lutz - shared under GPL-3.0) to produce .png images of NASA Blue Marble and Sea Ice Concentration datasets. 
+Working from subsets of the tutorial at https://github.com/eleanorlutz/earth_atlas_of_space/ (by Eleanor Lutz - shared under GPL-3.0) to produce .png images from NASA Earth Observations' Blue Marble and Sea Ice Concentration datasets. 
 
 <!-- ## Setup (from scratch)
 
@@ -17,6 +17,16 @@ Working from subsets of the tutorial at https://github.com/eleanorlutz/earth_atl
 
 ## Running 
 --> 
+
+## File structure
+
+- `csv_maps/sea_ice` contains NASA Earth Observations' Sea Ice Concentration data, downloaded as .CSV files with 0.1 degree resolution for the 1st of each month in 2021 (January 1st, Feburary 1st, etc).
+- `jpg_maps/blue_marble` contains NASA Earth Observations' Blue Marble: Next Generation data, downloaded as .jpg files with 0.1 degree resolution for each month in 2004.
+- `processed_maps/blue_marble` contains processed .png maps from the Blue Marble dataset. 
+    - `1_earth.png`, etc: Large side view. The numbers correspond to calendar months.
+    - `N_1_earth.png`, `S_1_earth.png`, etc: Small views looking down on the north or south poles. Numbers correspond to calendar months.
+- `processed_maps/sea_ice` contains processed .pngs from the Sea Ice dataset, named according to the same conventions as the Blue Marble data. 
+
 ## Credits
 
 The code in `raster.ipynb` is modified from portions of Eleanor Lutz's code at: https://github.com/eleanorlutz/earth_atlas_of_space/blob/main/raster_data.ipynb.
