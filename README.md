@@ -2,21 +2,6 @@
 
 Working from subsets of the tutorial at https://github.com/eleanorlutz/earth_atlas_of_space/ (by Eleanor Lutz - shared under GPL-3.0) to produce .png images from NASA Earth Observations' Blue Marble and Sea Ice Concentration datasets. 
 
-<!-- ## Setup (from scratch)
-
-### Installs
-
-- There are several ways to install Python and associated editors. I suggest installing Anaconda using the tutorial at: https://carpentries.github.io/workshop-template/#python
-- You will need to install the `cartopy` Python package. If you have installed Anaconda, the easiest way is to run:
-    - `conda install -c conda-forge cartopy`  
-    - Additional options: https://scitools.org.uk/cartopy/docs/latest/installing.html
-
-### Downloads
-
-- Assuming you do not have git instaleld, 
-
-## Running 
---> 
 
 ## File structure
 
