@@ -5,14 +5,15 @@ Working from subsets of the tutorial at https://github.com/eleanorlutz/earth_atl
 
 ## File structure
 
+- `replicate.ipynb` contains instructions for replicating this process.
+- `processed_maps/sea_ice` contains processed .pngs from the Sea Ice dataset, named according to the same conventions as the Blue Marble data. 
+- `process_maps.ipynb` contains code to produce the files in `processed_maps` from the raw files in `csv_maps` and `jpg_maps`. 
 - `csv_maps/sea_ice` contains [NASA Earth Observations' Sea Ice Concentration data](https://neo.gsfc.nasa.gov/view.php?datasetId=NISE_D&date=2021-12-31), downloaded as .CSV files with 0.1 degree resolution for the 1st of each month in 2021 (January 1st, Feburary 1st, etc).
 - `jpg_maps/blue_marble` contains [NASA Earth Observations' Blue Marble: Next Generation data](https://neo.gsfc.nasa.gov/view.php?datasetId=BlueMarbleNG-TB&date=2004-12-01), downloaded as .jpg files with 0.1 degree resolution for each month in 2004.
 - `processed_maps/blue_marble` contains processed .png maps from the Blue Marble dataset. 
     - `1_earth.png`, etc: Large side view. The numbers correspond to calendar months.
     - `N_1_earth.png`, `S_1_earth.png`, etc: Small views looking down on the north or south poles. Numbers correspond to calendar months.
-- `processed_maps/sea_ice` contains processed .pngs from the Sea Ice dataset, named according to the same conventions as the Blue Marble data. 
-- `process_maps.ipynb` contains code to produce the files in `processed_maps` from the raw files in `csv_maps` and `jpg_maps`. 
-- `replicate.ipynb` contains instructions for replicating this process.
+
 
 
 ## Credits
