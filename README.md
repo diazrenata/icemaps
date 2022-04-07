@@ -29,7 +29,7 @@ Working from subsets of the tutorial at https://github.com/eleanorlutz/earth_atl
 - `process_maps.ipynb` contains code to produce the files in `processed_maps` from the raw files in `csv_maps` and `jpg_maps`. 
 ## Credits
 
-The code in `process_maps.ipynb` is modified from portions of Eleanor Lutz's code at: https://github.com/eleanorlutz/earth_atlas_of_space/blob/main/raster_data.ipynb.
+The code in `process_maps.ipynb` is modified from portions of Eleanor Lutz's code at: https://github.com/eleanorlutz/earth_atlas_of_space/blob/main/raster_data.ipynb. Specifically, I changed the paths and simplified the `set_save_img` function to remove toggles that aren't needed for these maps.
 
 Per https://neo.gsfc.nasa.gov/about/:
 
