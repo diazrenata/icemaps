@@ -12,6 +12,9 @@ Working from subsets of the tutorial at https://github.com/eleanorlutz/earth_atl
     - `N_1_earth.png`, `S_1_earth.png`, etc: Small views looking down on the north or south poles. Numbers correspond to calendar months.
 - `processed_maps/sea_ice` contains processed .pngs from the Sea Ice dataset, named according to the same conventions as the Blue Marble data. 
 - `process_maps.ipynb` contains code to produce the files in `processed_maps` from the raw files in `csv_maps` and `jpg_maps`. 
+- `replication.ipynb` contains instructions for replicating this process.
+
+
 ## Credits
 
 The code in `process_maps.ipynb` is modified from portions of Eleanor Lutz's code at: https://github.com/eleanorlutz/earth_atlas_of_space/blob/main/raster_data.ipynb. Specifically, I changed the paths and simplified the `set_save_img` function to remove toggles that aren't needed for these maps.
